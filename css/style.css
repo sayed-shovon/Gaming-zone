@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    height: 80px;
+    width: 100%;
+}
+.container{
+    width: 90%;
+    margin:0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar__logo span{
+    text-align: center;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.navbar ul{
+    list-style: none;
+    margin-right: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+.navbar ul button{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+border: none;
+padding: 17px 24px;
+}
+.navbar ul button a{
+    padding-left: 10px;
+}
+.navbar ul li a{
+    color: #3C354F;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+}
+#hero{
+    width: 90%;
+    margin: 0 auto;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+}
+#hero h1{
+    color: #0B0223;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.hero_text{
+    background-image: url('images/bg.svg');
+}
+.anime{
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#hero ul li{
+    color: #534C64;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+list-style: none;
+margin-top: 10px;
+}
+#hero button {
+    margin-top: 25px;
+}
+#hero img{
+    width: 100%;
+}
+.signin{
+padding: 21px 40px;
+align-items: flex-start;
+border-radius: 48px;
+background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+border: none;
+}
+.goto{
+    padding: 21px 40px;
+align-items: flex-start;
+border-radius: 48px;
+background: #4EC5F7;
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+border: none;
+}
+#rtl{
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+.rtl{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 55px 0 56px 0;
+}
+#rtl .rtl_img{
+    width: 80%;
+}
+#rtl h2{
+    text-align: right;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#rtl p{
+    color: #534C64;
+text-align: right;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin-top: 10px;
+}
+#rtl button{
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none; 
+    margin-left: 50%;
+    margin-top: 10px;
+}
+#rtl span{
+    color: #534C64;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
+margin-top: 10px;
+}
+#video{
+    width: 100%;
+    padding: 80px 0;
+    
+}
+#video div{
+    width: 90%;
+    margin: 0 auto;
+}
+#video h2{
+    color: #0B0223;
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#video p{
+    color: #534C64;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin: 25px 0;
+}
+
+#video .image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image div{
+    text-align: center;
+    width: 25%;
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    position: relative;
+}
+.image img{
+    height:440px;
+}
+.image div .play{
+    border-radius: 50%;
+    position : absolute;
+    background-image: url('https://e7.pngegg.com/pngimages/886/387/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png');
+    background-size: cover;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.image div:hover .play{
+    width: 80px!important;
+    height: 80px;
+}
+.image div .color{
+    position : absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.39);
+    
+}
+.image div:hover .color{
+    width: 95%;
+    height: 440px;
+    border-radius: 15px;
+
+}
+
+
+.ov_cls{
+    width: 90%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ov_cls div:first-child{
+    width: 30%;
+}
+#overlay h2{
+    text-align: right;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; 
+color: #0B0223;
+}
+#overlay h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#overlay p{
+    color: #534C64;
+text-align: right;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.img1{
+    position: relative;
+}
+
+.img2{
+    position: absolute;
+    left: -100px;
+    bottom: -80px;
+}
+.pink{
+    width: 100%;
+    height: 821px;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 140px;
+}
+.pink h2{
+    color: #FFF;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; 
+}
+.pink p{
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-top: 25px;
+}
+.line{
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 25px;
+}
+.lin1{
+    text-align: left;
+}
+.lin2{
+    text-align: right;
+}
+.pink button{
+padding: 21px 40px;
+border-radius: 48px;
+background: #FFF;
+border: none;
+margin-top: 25px;
+}
+#sm_icon{
+    padding: 100px 0;
+}
+.small_icon{
+    width: 90%;
+    margin: 0 auto;
+}
+.small_icon .item{
+    width: 13%;
+    display: flex;
+    align-items: center; 
+    border:3px solid  #FFF;; 
+}
+.small_icon .item:hover{
+  border:3px solid  #F948B2;
+    border-radius: 25px;
+}
+
+.item h2{
+    color: #0B0223;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 10px;
+}
+.small_icon .icon1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5cqb;
+}
+.small_icon .icon2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 55px;
+
+}
+
+footer{
+
+height: 500px;
+background: #0B0223;
+}
+.footer__logo{
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 80px;
+}
+footer ul{
+    list-style: none;
+    text-align: center;
+    padding-top: 50px;
+
+}
+footer ul li{
+   display: inline;
+   color: #FFF;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding:0px 20px;
+
+}
+
+footer ul li a:hover{
+    color: #F948B2;    
+}
+
+.ft_litem li{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+footer h3{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 40px 0 0 0;
+}
